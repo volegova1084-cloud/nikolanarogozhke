@@ -30,3 +30,5 @@
 .concept-01 .community-links{display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px 24px}.concept-01 .community-links .text-link{min-height:44px;max-width:100%}
 
 .concept-01 .temple-photo{overflow:hidden;background:var(--soft)}.concept-01 .temple-photo img{display:block;width:100%;height:100%;object-fit:cover}.concept-01 .hero-media img{object-position:43% 50%}.concept-01 .about-media img{object-position:54% 50%}
+
+.concept-01 .brand img{width:54px;height:52px;object-fit:contain;flex-shrink:0}.concept-01 .hero-frame-layered{padding:0;margin-left:-30px;margin-right:0}.concept-01 .hero-frame-layered:before{display:none}.hero-composition{display:block;width:100%;height:auto;overflow:visible}.concept-01 .hero-art{padding-left:18px}@media(max-width:767px){.concept-01 .hero-frame-layered{margin:0 auto;max-width:520px}.concept-01 .hero-art{padding-left:24px}}@media(max-width:575px){.concept-01 .brand img{width:42px;height:42px}.concept-01 .brand{gap:10px;font-size:21px}}
