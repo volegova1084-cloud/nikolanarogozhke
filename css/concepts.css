@@ -28,3 +28,5 @@
 @media(max-width:575px){.structure-review{padding:32px 0}.structure-block{padding:28px 0}.structure-block h2{font-size:30px}}
 
 .concept-01 .community-links{display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px 24px}.concept-01 .community-links .text-link{min-height:44px;max-width:100%}
+
+.concept-01 .temple-photo{overflow:hidden;background:var(--soft)}.concept-01 .temple-photo img{display:block;width:100%;height:100%;object-fit:cover}.concept-01 .hero-media img{object-position:43% 50%}.concept-01 .about-media img{object-position:54% 50%}
