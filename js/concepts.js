@@ -14,7 +14,7 @@ menuButton?.addEventListener('click', () => {
 });
 navigation?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeMenu()));
 document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') closeMenu(true);
+  if (event.key === 'Escape' && !document.querySelector('.page-dialog')?.open && menuButton?.getAttribute('aria-expanded') === 'true') closeMenu(true);
 });
 const dialog = document.querySelector('.page-dialog');
 document.querySelectorAll('[data-page]').forEach(button => button.addEventListener('click', () => {
